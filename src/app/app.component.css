@@ -1,0 +1,58 @@
+.todos__form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 20px;
+}
+
+.todos__form label {
+  margin-top: 20px;
+}
+
+.todos__form__button {
+  /* width: 200px;
+  background-color: blue;
+  color: #ffff;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold; */
+}
+
+.todos__form__button :disabled {
+  /* background-color: grey;
+  color: #222222; */
+}
+
+.todos__list {
+  margin: 20px;
+}
+
+.todos__list li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.todos__list__item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  width: auto;
+}
+
+.todos__list__item__content {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todos__list__item__button {
+  color: #ffffff;
+  height: 30px;
+  background-color: blue;
+  border: none;
+  margin-top: 10px;
+}
+
+.button--delete {
+  background-color: red;
+}
